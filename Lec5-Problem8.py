@@ -37,7 +37,7 @@ def isIn(char, aStr):
     if len(aStr)==1:
         return aStr == char
 
-    midIndex = len(aStr)/2
+    midIndex = int(len(aStr)/2)
     midChar = aStr[midIndex]
 
     if char == midChar:
